@@ -3,8 +3,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path='J:\Downloads\chromedriver.exe')
 plantumlURL = 'http://www.plantuml.com/plantuml/uml/LP1B3iCW30NtFWNAghr3LUKcaGj4GG8Z6MVHsxS81yBRpVW3ybe4MSuK0Jz56AqOpSMZO2EMOimoYmMGA0jAoAIJdS46jj6RdiRmU9efJM_bo2pRdZc1lZKwAeCBc3AvRfNXzPxtgRylz2H1lgEbyL-VwJvP6GA9vntjzV7Ei7fozLW_'
 
 driver.get(plantumlURL)
